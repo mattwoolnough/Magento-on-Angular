@@ -24,6 +24,7 @@ Getting Started
  * Update `config.json.sample` with your own paths, and hostnames; rename `config.json.sample` to `config.json`
  * Run `grunt`
  * (Optionally): Cache products using `php artisan products` from `api/`;
+ * Initialise the Laravel instance: `php artisan serve` from `api/`;
  * Initialise the Node.js instance: `node node/server.js`;
  * Open `example.com/Magento-on-Angular/store/` in your browser;
  * You may need to update the `base_url` in `Magento Admin > Configuration > Web` if you did a fresh installation of Magento.
